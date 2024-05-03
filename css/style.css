@@ -1,0 +1,141 @@
+body{
+    background-color: #7350df;
+    background-image: url(../img/cheburek.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+    padding: 20px 0px 25px 0px;
+    border-radius: 30px;
+    box-shadow: #0000008e 0px 3px 5px;
+    background-image: url(../img/cheburek.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+li{
+    display: inline;
+    margin-right: 40px;
+    text-shadow: #000000 0px 0px 5px ;
+    text-shadow: #000000 0px 0px 5px ;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+li:last-child{
+    margin-right: 0px;
+}
+a:hover{
+    color: rgb(182, 166, 255);
+}
+.name{
+    color: white;
+    font-size: 40px;
+    text-align: center; 
+    text-shadow: #000000 0px 0px 5px;
+}
+
+.inform{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: #000000 0px 0px 5px;
+}
+
+.active{
+    padding: 0px 10px 5px 10px ;
+    border-radius: 15px ;
+    border-top: 2px solid #ffffff4f;
+    box-shadow: #000000 0px 0px 5px;
+}
+.about{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: #000000 0px 0px 5px;
+}
+.gal1{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: #000000 0px 0px 20px;
+    max-width: 100%;
+    height: auto;
+}
+.gal2{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: #000000 0px 0px 20px;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+.gal3{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: #000000 0px 0px 20px;
+    max-width: 100%;
+    height: auto;
+}
+.gal{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: #000000 0px 0px 5px
+}
+.log{
+    width: 164px;
+    height: 136px;
+}
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 45px; 
+}
+@media screen and (max-width: 768px)
+{
+    a {
+      font-size: 18px;   
+    }
+    li{
+        margin-right: 10px;
+    }
+    ul{
+        border-radius: 20px;
+        padding: 10px 0px 15px 0px;
+    }
+    .gal{
+        font-size: 20px;
+    }
+    .inform{
+        font-size: 20px;
+    }
+    .about{
+        font-size: 20px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .log{
+        width: 82px;
+        height: 68px;
+    }
+}
